@@ -1,0 +1,277 @@
+
+body, html {
+    font-family: Arial;
+    margin: 0;
+    height: 100%;
+}
+.header  {
+    position: relative;
+    background: #343239;
+    padding: 8% 5% 5% 5%;
+    color: #F2F2F5;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+}
+.header_row{
+	display: table-row;
+	width: 100%;
+}
+.logo {
+	float:left;
+	display: table-cell;
+    vertical-align: middle;
+	box-sizing: border-box;
+	height: 40%;
+	line-height: 40%;
+}
+.logo img {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	line-height: 40%;
+	margin: auto;
+	vertical-align: middle;
+	box-sizing: border-box;
+}	
+#left {
+	position: relative;
+	width: 15%;
+	line-height: 40%;
+}
+#right {
+	position: relative;
+	width: 15%;
+	transform: scaleX(-1);
+	line-height: 40%;
+}
+.logo_title {
+	display: table;
+	width: 70%;
+}
+
+.logo_title p {
+	font-size: 5vw;
+	text-align: center;
+	vertical-align: middle;
+	box-sizing: border-box;
+	line-height: 1;
+	display: table-cell;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #F2F2F5;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #343239;
+	text-align: center;
+	padding: .75% 1%;
+	text-decoration: none;
+	font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.navbar a.right {
+	float: right;
+}
+
+#yellow a:hover {
+	background-color: #FFED66;
+}
+#blue a:hover {
+	background-color: #78CCFF;
+}
+#red a:hover {
+	background-color: #FF7A5A;
+}
+#green a:hover {
+	background-color: #B2ED96;
+}
+
+.Row {
+	height: 100%;
+    display: table-row;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.Main {
+	flex: 70%;
+	background-color: #aaa;
+	padding: 2.3vw;
+}
+
+.centered {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 50%;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	color: #343239;
+	background-color: #F2F2F5;
+	font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.intro {
+	margin: 0;
+	background: #343239;
+    color: #F2F2F5;
+	font-size: 1.75vw;
+	line-height: 1.6;
+	padding: 2% 20% 2% 20%;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+.intro p, br{
+	margin: 0;
+}
+
+.intro a:link {
+	color:#595CEC;
+}
+.intro a:visited {
+	color:#D859EC;
+}
+.intro a:hover {
+	color:#A833FF;
+}
+.container{
+	width:100%;
+	margin:0;
+	border-collapse: collapse;
+}
+.title{
+	width: 100%;
+	font-weight: bolder;
+	height: 2vh;
+	line-height: 1.6;
+
+}
+
+.text_col{
+	vertical-align: top;
+	width: 33.3%;
+}
+
+.image_col{
+	width: 66.6%;
+}
+.image_col img{
+	vertical-align: middle;
+	width: 100%;
+}
+.descriptions{
+	width:100%;
+	margin:0;
+	border-spacing: 2.1vh;
+	font-size: 1vw;
+	color: black;
+
+}
+#redcell {
+	border-style: solid;
+	border-color: #FF7A5A;
+	background-color: #FFA18A;
+	border-width: .5vw;
+}
+#bluecell {
+	border-style: solid;
+	border-color: #78CCFF;
+	background-color: #BFE7FF;
+	border-width: .5vw;
+}
+#yellowcell {
+	border-style: solid;
+	border-color: #FFED66;
+	background-color: #FFF7B8;
+	border-width: .5vw;
+}
+#greencell {
+	border-style: solid;
+	border-color: #B2ED96;
+	background-color: #C8EEB5;
+	border-width: .5vw;
+}
+
+.form{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	padding: 3%;
+	
+	width: 100%;
+	background-color: #343239;
+}
+
+.form input {
+	width: 15%;
+	 border-radius: 4px;
+	 border: 1px solid #ccc;
+}
+
+.form textarea{
+	width: 15%;
+	height: 150px;
+	 border-radius: 4px;
+	 border: 1px solid #ccc;
+}
+.forum{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin: 3%;
+	height: 100%;
+	width: 100%;
+}
+
+.table_set{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin: 3%;
+	box-sizing: border-box;
+		
+}
+
+.table_set table {
+	border-width: .25vw;
+	border-style: solid;
+	border-collapse: collapse;
+}
+.table_set tr{
+	width: 100%;
+}
+
+#col1, #col2, #col3{
+	width: 33.3%;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+input[type=text]{
+	padding: 12px;
+}
+
+textarea{
+	padding: 12px;
+}
